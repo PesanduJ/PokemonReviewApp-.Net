@@ -9,5 +9,9 @@
 
         public string  text { get; set; }
 
+        public Reviewer reviewer { get; set; }      //one-to-many relationship
+
+        public Pokemon pokemon { get; set; }        //one-to-many relationship
+
     }
 }

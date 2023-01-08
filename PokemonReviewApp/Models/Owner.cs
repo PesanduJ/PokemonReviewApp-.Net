@@ -9,5 +9,7 @@
 
         public string gym { get; set; }
 
+        public Country country { get; set; }        //one-to-one relationship
+
     }
 }

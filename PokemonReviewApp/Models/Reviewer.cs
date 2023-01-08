@@ -9,5 +9,7 @@
 
         public string lastName { get; set; }
 
+        public ICollection<Review> reviews { get; set; }        //one-to-many relationship
+
     }
 }
