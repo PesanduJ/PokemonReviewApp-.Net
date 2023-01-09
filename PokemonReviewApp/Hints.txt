@@ -1,0 +1,16 @@
+﻿+Add 
+	Microsoft.EntityFrameworkCore.SqlServer
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore.Tools
+
+-To do
+	Make sure to configure database
+	To use migrate function use Package Maanger Console and type Add-Migration InitialCreate
+	To create database tables use Update-Database
+
+-To seed
+	Go to terminal useing search bar in visual studio
+	Type dir, this will direct you to the directory
+	Type cd PokemonReviewApp
+	Type dir
+	Type dotnet run seeddata
