@@ -10,5 +10,9 @@
 
         public ICollection<Review> Reviews { get; set; }        //one-to-many relationship
 
+        public ICollection<PokemonOwner> pokemonOwners { get; set; }        //many-to-many relationship
+
+        public ICollection<PokemonCategory> pokemonCategories { get; set; }         //many-to-many relationship
+
     }
 }

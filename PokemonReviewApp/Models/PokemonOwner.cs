@@ -2,7 +2,7 @@
 {
     public class PokemonOwner
     {
-        //many-to-many relationship
+        //join tables
 
         public int pokemonId { get; set; }
 
@@ -11,7 +11,6 @@
         public Pokemon pokemon { get; set; }
 
         public Owner owner { get; set; }
-
 
     }
 }

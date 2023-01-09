@@ -2,8 +2,7 @@
 {
     public class PokemonCategory
     {
-
-        //many-to-many relationship
+        //join tables
 
         public int pokemonId { get; set; }
 
@@ -12,5 +11,6 @@
         public Pokemon pokemon { get; set; }
 
         public Category category { get; set; }
+
     }
 }

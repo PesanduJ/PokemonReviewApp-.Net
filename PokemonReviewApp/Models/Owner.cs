@@ -11,5 +11,7 @@
 
         public Country country { get; set; }        //one-to-one relationship
 
+        public ICollection<PokemonOwner> pokemonOwners { get; set; }        //many-to-many relationship
+
     }
 }
