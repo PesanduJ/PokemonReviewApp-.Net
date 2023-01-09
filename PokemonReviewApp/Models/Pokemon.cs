@@ -6,9 +6,9 @@
 
         public string name { get; set; }
 
-        public DateTime birthDay { get; set; }
+        public DateTime birthDate { get; set; }
 
-        public ICollection<Review> Reviews { get; set; }        //one-to-many relationship
+        public ICollection<Review> reviews { get; set; }        //one-to-many relationship
 
         public ICollection<PokemonOwner> pokemonOwners { get; set; }        //many-to-many relationship
 
